@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udiksha Agarwal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Udiksha Agarwal</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+    Hello! I'm just getting started on my journey as a developer, learning how to build things for the web and diving into the world of machine learning.
+    Right now, I'm focused on learning the basics — creating responsive websites with HTML, CSS, and JavaScript, and exploring how Python and machine learning
+    can be used to solve real-world problems.
+    <br><br>
+    I do not  have years of experience (yet!), but I am a quick learner who loves experimenting, building small projects, and figuring things out one step at a time.
+    Recently, I built my first journaling app that uses simple AI to help users remember important notes — and it is just the beginning.
+    <br><br>
+    What excites me most is the idea of combining creativity with logic — designing interfaces people enjoy using, and building intelligent tools that make life easier.
+    This portfolio is a snapshot of what I have learned so far, and I am really looking forward to where this path takes me next.
+
+</p>
+<div class="aboutme-img">
+                            <img src="./img2.jpeg"></img>
+                        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>JournAI</h3>
+            <p>JournAI is an AI-powered online journaling platform developed using HTML, CSS, and Python, integrating a RAG model to enhance user interaction and memory recall. Acting as a digital second brain, it allows users to record their experiences and intelligently retrieve past entries or specific contact-related information. By leveraging the RAG model, JournAI combines document retrieval with generative AI to provide accurate, context-aware responses, making memory search more intuitive and meaningful. The platform is designed to reduce cognitive load by delivering structured, AI-assisted insights that help users reflect, remember, and organize their thoughts more effectively.</p>
+        </div>
+        <div class="project-img">
+                            <img src="./journai.png"></img>
+                        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Udiksha Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
